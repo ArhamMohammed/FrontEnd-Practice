@@ -1,1 +1,1 @@
-Just a developer trying to learn Front-End Technologies from Udemy.
+Just a developer trying to learn Front-End Technologies from online platforms.
