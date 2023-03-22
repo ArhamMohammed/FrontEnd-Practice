@@ -1,1 +1,1 @@
-Just a developer trying to learn JavaScript through a course from Udemy.
+Just a developer trying to learn Front-End Technologies from Udemy.
