@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<body> 
+
+<style> 
+
+        body{ 
+
+          background-image: url('WildLife_Photo.PNG'); 
+
+          background-repeat: no-repeat; 
+
+          background-size: cover; 
+
+        } 
+
+</style> 
+
+ 
+
+<h1>The Screen Location Object</h1> 
+
+<p id = "p1"></p> 
+
+<p id = "p2"></p> 
+
+<p id = "p3"></p> 
+
+<script> 
+
+let height = screen.availHeight; 
+
+document.getElementById("p1").innerHTML = "Height: " + height; 
+
+let depth = screen.colorDepth; 
+
+document.getElementById("p2").innerHTML = "Depth:" + depth; 
+
+let width = screen.width; 
+
+document.getElementById("p3").innerHTML = "Port number: " + width; 
+
+</script> 
+
+</body> 
+
+</html> 
