@@ -53,11 +53,13 @@ a:hover{
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  text-align: center;
   /* line-height: 2; */
 }
 
 .middle-container {
   margin: 100px 0;
+  text-align: center;
 }
 
 .pro {
@@ -118,7 +120,7 @@ a:hover{
 }
 
 .bottom-container {
-
+  text-align: center;
 background-color: #66BFBF;
 padding: 50px 0px 20px;
 }
@@ -149,7 +151,28 @@ padding: 50px 0px 20px;
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+#arham {
+  background-image: url("../images/Header_Image.jpg");
+  background-size: cover;
 
+  /* Workaround for some mobile browsers */
+  min-height: 100%;
+}
+
+body {
+  background-color : #EAF6F6;
+}
+
+hr {
+  border-style:none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:5%;
+}
+h1, h3{
+  color: #66BFBF;
+}
 
 /*
 .first-skill-description

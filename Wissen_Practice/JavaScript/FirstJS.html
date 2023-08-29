@@ -1,49 +1,75 @@
 <!DOCTYPE html> 
 
-<html> 
+<html lang="en"> 
 
-<body> 
+<head> 
 
-<style> 
+<title>JavaScript Example</title> 
 
-        body{ 
+<meta charset="utf-8"> 
 
-          background-image: url('WildLife_Photo.PNG'); 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-          background-repeat: no-repeat; 
+<link rel="stylesheet" 
 
-          background-size: cover; 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
 
-        } 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+</head> 
+
+<style>  
+
+    body{  
+
+      background-image: url('Eagle.jpg');  
+
+      background-repeat: no-repeat;  
+
+      background-size: cover;  
+
+    }  
+    table, th, td {
+  border: 10px solid black;
+  color: white;
+}
 
 </style> 
 
- 
+<body> 
 
-<h1>The Screen Location Object</h1> 
-
-<p id = "p1"></p> 
-
-<p id = "p2"></p> 
-
-<p id = "p3"></p> 
-
-<script> 
-
-let height = screen.availHeight; 
-
-document.getElementById("p1").innerHTML = "Height: " + height; 
-
-let depth = screen.colorDepth; 
-
-document.getElementById("p2").innerHTML = "Depth:" + depth; 
-
-let width = screen.width; 
-
-document.getElementById("p3").innerHTML = "Port number: " + width; 
-
-</script> 
+  <table>
+    <thead>
+      <th>Employee</th>
+      <th>Contact</th>
+      <th>City</th>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Arham</td>
+      <td>9980871986</td>
+      <td>Bangalore</td>
+    </tr>
+    <tr>
+      <td>Mohammed</td>
+      <td>123456789</td>
+      <td>Hyderabad</td>
+    </tr>
+    <tr>
+      <td>Mir</td>
+      <td>987654321</td>
+      <td>Mumbai</td>
+    </tr>
+    <tr>
+      <td>Aamir</td>
+      <td>76576567</td>
+      <td>Jammu</td>
+    </tr>
+  </tbody>
+  </table>
 
 </body> 
 
-</html> 
+</html>
